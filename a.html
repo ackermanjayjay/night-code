@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Deteksi gender berdasarkan nama</h1>
+    <div class="input-group mb-3 mt-5 container ">
+        <span class="input-group-text" id="basic-addon1">Name</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"
+        id="name">
+        <button class="btn btn-primary" onclick="nameDetection()">Deteksi</button>
+    </div>
+    <div class="d-flex justify-content-center mt-5 mx-5 container flex-wrap">
+        <span class="input-group-text" id="basic-addon1">Hasil</span>
+        <input type="text" id="hasil" disabled>
+    </div>
+    <div class="d-flex justify-content-center mt-5 mx-5 container flex-wrap gap-5">
+        <label id="keterangan" class=""></label> 
+        <label id="gender" class=""></label> 
+        <label id="country" class=""></label> 
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="a.js"></script>
+</body>
+</html>
